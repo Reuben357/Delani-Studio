@@ -1,3 +1,4 @@
+/**import font **/
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 body{
     font-family: 'Alegreya sans';
@@ -5,7 +6,7 @@ body{
     font-size: 20px;
 }
 
-
+/**home**/
 .home{
     background-image:url(/images/backgrounds/h_img.jpg);
     background-size: cover;
