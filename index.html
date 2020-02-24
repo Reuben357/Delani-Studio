@@ -13,12 +13,13 @@
 <body>
   <div class="container">
     <div class="home"> <br> <br><br><br>
-      <img src="/images/logo/logo.png" alt="logo">
+      <img src="images/logo/logo.png" alt="logo">
       <p class="p1">WELCOME</p>
       <P class="p1">TO DELANI STUDIO</P>
       <P class="pp1">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P><br> <br>
-      <a href="#about"><img src="/images/mouse_click.png" alt="mouse"></a><br><br><br><br>
+      <a href="#about"><img src="images/mouse_click.png" alt="mouse"></a><br><br><br><br>
     </div>
+    <!-- about section -->
     <div id="about">
       <h1>ABOUT US</h1>
       <P>When you work with us,you are part of a team of comiitted collaborators.All aspects of our software
@@ -28,14 +29,16 @@
         </p>
         <p>Then we help translate them into effective and elegant solutions.</p>
       </div>
-      <div class="services">
+      <!-- services section -->
+      <div id="services">
         <h2>SERVICES</h2>
         <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to
           understand your project vision</p>
           <p>The outcome of this scoping session is proposal or high-level statement of work.</p>
           <p>Based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
         </div>
-        <div class="whattodo">
+        <!-- what to do -->
+        <div id="what-to-do">
           <div class="container">
               <div class="h2">
                 <h2>WHAT TO DO</h2>
@@ -54,7 +57,7 @@
               </div>
               <div class="col-md-4">
                 <div class="dev-con">
-                  <img src="/images/srevices-icons/dev_icon.png" class="dev-img">
+                  <img src="images/srevices-icons/dev_icon.png" class="dev-img">
                   <P>DEVELOPMENT</P>
                   <P class="paragraph-dev">All engineers are fluent in the latest enterprise, mobile and web development
                     technologies.
@@ -65,7 +68,7 @@
               </div>
               <div class="col-md-4">
                 <div class="product-con">
-                  <img src="/images/srevices-icons/product_icon.png" class="prod-img">
+                  <img src="images/srevices-icons/product_icon.png" class="prod-img">
                   <P>PRODUCT</P>
                   <P class="paragraph-prod">Planning and development is iterative. Because we are constantly coding and
                     testing, the products we build are always ready to go live.
@@ -75,72 +78,83 @@
               </div>
             </div> 
           </div>
-          <div class="portfolio">
+          <!-- portfolio -->
+          <div id="portfolio">
             <h4 class="port">PORTFOLIO</h4>
             <div class="row row1">
                 <figure class="col-md-3">
-                    <img src="/images/portfolio/work1.jpg" class="work1">
+                    <img src="images/portfolio/work1.jpg" class="work1">
+                    <p>Movie web</p>
                 </figure>
                 <figure class="col-md-3">
-                    <img src="/images/portfolio/work2.jpg" class="work2">
+                    <img src="images/portfolio/work2.jpg" class="work2">
+                    <p>Rose Gold</p>
 
                 </figure>
                 <figure class="col-md-3">
-                    <img src="/images/portfolio/work3.jpg"class="work3">
+                    <img src="images/portfolio/work3.jpg"class="work3">
+                    <p>Mighty Ontario</p>
 
                 </figure>
                 <figure class="col-md-3">
-                    <img src="/images/portfolio/work4.jpg"class="work4">
+                    <img src="images/portfolio/work4.jpg"class="work4">
+                    <p>Grey color</p>
 
                 </figure>
             </div>
             <div class="row row2">
                 <div class="col-md-3">
-                    <img src="/images/portfolio/work5.jpg" class="work5">
+                    <img src="images/portfolio/work5.jpg" class="work5">
+                    <p>Proflie</p>
                 </div>
                 <div class="col-md-3">
                     <img src="images/portfolio/work6.jpg"class="work6">
+                    <p>Settings</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="/images/portfolio/work7.jpg"class="work7">
+                    <img src="images/portfolio/work7.jpg"class="work7">
+                    <p>Burned</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="/images/portfolio/work8.jpg" class="work8">
+                    <img src="images/portfolio/work8.jpg" class="work8">
+                    <p>Giraffe Resturant</p>
                 </div>
               </div>
         </div><br><br><br>
-        <div class="contact">
+        <!-- contact form -->
+        <div id="contact">
            <h2 class="head2">CONTACT US</h2>
            <form>
             <div class="row">
-              <div class="col-md-6" id="name">
-                  <input type="text" id="name" placeholder="Name">
+              <div class="col-md-6">
+                  <input type="text" id="names" name="your-name" placeholder="Name">
               </div>
               <div class="col-md-6" id="email">
-                  <input type="email" id="email" placeholder="Email">
+                  <input type="email" id="emails" name="email" placeholder="Email">
               </div>
               <br><br><br><br>
               <div class="col-md-12" id="text">
-                  <textarea id="message" rows="10" cols="90" placeholder=" Your message here ..."></textarea>
+                  <textarea id="message" rows="10" cols="90" name="text" placeholder=" Your message here ..."></textarea>
               </div>
               <br><br><br><br><br>
               <div class="button">
-                  <button type="submit" class="btn" id="submit">Submit</button>
+                  <button type="submit" class="btn" id="submit" onclick="infor()">Submit</button>
               </div>
           </div>
       </div>
            </form>
+           <!-- footer -->
            <footer>
-             <div class="social">
-             <a href="https://twitter.com/" ><img src="/images/social-icons/twitter.png"></a>
-             <a href="https://dribbble.com/"><img src="/images/social-icons/dribble.png"></a>
-             <a href="https://www.facebook.com/"><img src="/images/social-icons/facebook.png"></a>
-             <a href="https://www.skype.com/en/"><img src="/images/social-icons/skype.png"></a>
-             <a href="https://www.stumbleupon.com/"><img src="/images/social-icons/stumble_upon.png"></a>
-             <a href="https://www.behance.net/"><img src="/images/social-icons/behance.png"></a>
-             <a href="https://www.pinterest.com/"><img src="/images/social-icons/pinterest.png"></a>
-             <a href="https://www.flickr.com/"><img src="/images/social-icons/flickr.png"></a>
-             <a href="https://www.youtube.com/"><img src="/images/social-icons/you_tube.png"></a>
+             <div id="social">
+             <a href="https://twitter.com/" ><img src="images/social-icons/twitter.png"></a>
+             <a href="https://dribbble.com/"><img src="images/social-icons/dribble.png"></a>
+             <a href="https://www.facebook.com/"><img src="images/social-icons/facebook.png"></a>
+             <a href="https://www.skype.com/en/"><img src="images/social-icons/skype.png"></a>
+             <a href="https://www.stumbleupon.com/"><img src="images/social-icons/stumble_upon.png"></a>
+             <a href="https://www.behance.net/"><img src="images/social-icons/behance.png"></a>
+             <a href="https://www.pinterest.com/"><img src="images/social-icons/pinterest.png"></a>
+             <a href="https://www.flickr.com/"><img src="images/social-icons/flickr.png"></a>
+             <a href="https://www.youtube.com/"><img src="images/social-icons/you_tube.png"></a>
             </div>
             <div class="finish">
             <p>DELANI STUDIO</p>
