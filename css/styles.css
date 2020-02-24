@@ -23,6 +23,7 @@ body{
 #about{
     text-align: center;
 }
+/** services**/
 #services{
     background-image: url(/images/backgrounds/s_image.jpg);
     background-size: cover;
